@@ -17,4 +17,19 @@ describe RomanNumeralEvaluator do
     e.solve('X - I').should eq('IX')
   end
   
+  it "should add and subtract multiple numerals" do
+    e = RomanNumeralEvaluator.new
+    e.solve('X + V - III').should eq('XII')
+  end
+  
+  it "should multiply numerals" do
+    e = RomanNumeralEvaluator.new
+    e.solve('X * X').should eq('C')
+  end
+  
+  it "should divide roman numerals" do
+    e = RomanNumeralEvaluator.new
+    e.solve('C / X').should eq('X')
+  end
+  
 end
