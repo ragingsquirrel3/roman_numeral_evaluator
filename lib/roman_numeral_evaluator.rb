@@ -4,7 +4,7 @@ class RomanNumeralEvaluator
   
   # problem is a string representing a Roman math problem, such as 'I + I'. Returns roman result, as a string, such as 'II'
   def solve(problem)
-    RomanNumerals.to_roman(solve_as_integer(problem))
+    RomanNumerals.to_roman(solve_as_integer(problem.upcase))
   end
   
   # Takes 'I + I', returns 2.  Recursively replaces a first Roman numeral in a string with decimal.
