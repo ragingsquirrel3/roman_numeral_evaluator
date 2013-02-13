@@ -13,6 +13,8 @@ class RomanNumeralEvaluator
     if problem.match(valid_numeral_pattern)
       # There are roman characters.  Replace the first word, solve the result.
       solve_as_integer(problem.sub(valid_numeral_pattern){ |n| to_decimal(n) })
+    elsif problem.is_a?(Proc)
+      problem.call
     else
       # Base Case:  There are no roman characters in problem.  We're done. Return the evaluated result.
       eval(problem)
@@ -42,7 +44,7 @@ class RomanNumeralEvaluator
     DIGITS.keys.reverse.each do |decimal|
       while value >= decimal
         value -= decimal
-        result += DIGITS[decimal]
+        result = result << DIGITS[decimal]
       end
     end
     result
