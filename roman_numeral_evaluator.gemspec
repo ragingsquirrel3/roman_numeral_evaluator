@@ -4,7 +4,7 @@ require File.expand_path('../lib/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Travis Sheppard"]
   gem.email         = ["travissheppard.1988@gmail.com"]
-  gem.description   = "A Ruby gem that extends the String class to do math with Roman numerals, as well as handle Roman math problems as strings."
+  gem.description   = "A Ruby gem that solves Roman numeral math problems as strings."
   gem.summary       = ""
   gem.homepage      = ""
 

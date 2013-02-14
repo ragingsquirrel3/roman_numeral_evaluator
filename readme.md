@@ -1,9 +1,6 @@
 ## About
 
-A Ruby gem that extends the String class to do math with Roman numerals, as well as handle Roman math problems as strings.
-
-    "V" + "V"
-    => "X"
+A Ruby gem that solves Roman numeral math problems as strings.
     
     RomanNumeralEvaluator.solve("I + I")
     => "II"
@@ -14,7 +11,10 @@ In your gemfile
 
     gem 'roman_numeral_evaluator'
     
+And execute:
 
+    $ bundle install
+    
 ## Usage
 
 Basic problem
@@ -35,7 +35,7 @@ You can multiply!
     RomanNumeralEvaluator.solve('X * X')
     => "C"
   
-Mix Roman and Arabic
+Mix Roman and Arabic.
 
     RomanNumeralEvaluator.solve('X * 10')
     => "C"

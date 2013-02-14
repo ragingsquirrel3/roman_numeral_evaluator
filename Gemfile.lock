@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    roman_numeral_evaluator (0.0.2)
+    roman_numeral_evaluator (0.0.3)
 
 GEM
   remote: https://rubygems.org/
