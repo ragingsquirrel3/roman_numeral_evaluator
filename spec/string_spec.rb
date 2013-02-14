@@ -1,10 +1,10 @@
-require_relative '../lib/string'
+require_relative '../lib/roman_numeral_evaluator'
 
 describe String do
   
   it "should add roman numerals" do
-    result = "IV" + "I"
-    result.should eq("V")
+    result = "V" + "V"
+    result.should eq("X")
   end
   
   it "should subtract roman numerals" do

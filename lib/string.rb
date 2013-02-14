@@ -1,5 +1,3 @@
-require_relative 'roman_numeral_evaluator'
-
 class String
   
   def +(a)

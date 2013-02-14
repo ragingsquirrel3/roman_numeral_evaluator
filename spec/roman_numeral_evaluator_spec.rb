@@ -26,4 +26,8 @@ describe RomanNumeralEvaluator do
     RomanNumeralEvaluator.solve('C / X').should eq('X')
   end
   
+  it "should mix roman and arabic" do
+    RomanNumeralEvaluator.solve('X * 10').should eq("C")
+  end
+  
 end
