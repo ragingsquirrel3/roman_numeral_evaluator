@@ -1,6 +1,19 @@
 ## About
 
-This is an example Ruby script that solves math problems with Roman numerals.
+A Ruby gem that extends the String class to do math with Roman numerals, as well as handle Roman math problems as strings.
+
+    "I" + "I"
+    => "II"
+    
+    RomanNumeralEvaluator.solve('I + I')
+    => 'II'
+    
+## Install
+
+In your gemfile
+
+    gem 'roman-numeral-evaluator'
+    
 
 ## Usage
 

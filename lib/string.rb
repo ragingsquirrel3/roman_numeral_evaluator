@@ -9,8 +9,7 @@ class String
       RomanNumeralEvaluator.to_roman(number + other)
     else
       self << a
-    end
-      
+    end 
   end
   
   def -(a)
