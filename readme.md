@@ -12,7 +12,7 @@ A Ruby gem that extends the String class to do math with Roman numerals, as well
 
 In your gemfile
 
-    gem 'roman-numeral-evaluator'
+    gem 'roman_numeral_evaluator'
     
 
 ## Usage
