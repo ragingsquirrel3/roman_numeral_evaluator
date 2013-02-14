@@ -22,4 +22,8 @@ describe String do
     result.should eq("X")
   end
   
+  it "should add non roman strings normally" do
+    ("a" + "b").should eq("ab")
+  end
+  
 end
