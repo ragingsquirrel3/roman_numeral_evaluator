@@ -14,9 +14,9 @@ class String
     RomanNumeralEvaluator.solve("#{self} - #{a}")
   end
   
-  def *(a)
-    RomanNumeralEvaluator.solve("#{self} * #{a}")
-  end
+  # def *(a)
+  #   RomanNumeralEvaluator.solve("#{self} * #{a}")
+  # end
   
   def /(a)
     RomanNumeralEvaluator.solve("#{self} / #{a}")
