@@ -1,4 +1,4 @@
-require_relative '../lib/roman_numeral_evaluator'
+require_relative 'spec_helper'
 
 describe RomanNumeralEvaluator do
   

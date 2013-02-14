@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
-gem 'rspec'
-gem 'debugger'
+# Specify your gem's dependencies in quacky-charts.gemspec
+gemspec
